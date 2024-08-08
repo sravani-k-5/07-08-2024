@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        
+        .container1{
+            height: 100vh;
+            width: 100%;
+            background-image: url("nat.jpg");
+            background-repeat:no-repeat; 
+            background-position: center; 
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 130px 150px; 
+            gap: 13px;
+        }
+        .container{
+            border: 1px solid;
+            width: 50%;
+            height: 40vh;
+            background-color: aliceblue;
+            color: black;
+        }
+        div .kk1{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 15vh;
+            
+        }
+        #u
+        {
+            font-size: xx-large;
+            color: aqua;
+        }
+       #kk{
+       border-radius: 15px;
+
+       }
+       main .circle { 
+    height: 40px; 
+    width: 40px; 
+    border-radius: 50%; 
+    background-color: #008ae6; 
+    box-shadow: 0 10px 20px rgb(0, 0, 0); 
+    animation: loader .8s ease-in-out infinite alternate; 
+} 
+  
+.circle:nth-child(2) { 
+    animation-delay: -0.25s; 
+    background-color: black;
+} 
+  
+.circle:nth-child(3) { 
+    background: red; 
+    animation-delay: -0.5s; 
+} 
+  
+.circle:nth-child(4) { 
+    background: yellow; 
+    animation-delay: -0.75s; 
+} 
+  
+.circle:nth-child(5) { 
+    background: green; 
+    animation-delay: -1s; 
+} 
+.google{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20px;
+}
+@keyframes loader { 
+    from { 
+        transform: translateY(-10px); 
+    } 
+  
+    to { 
+        transform: translateY(10px); 
+    } 
+}
+    </style>
+</head>
+  <body>
+    <div class="container1">
+    <div class="container">
+        <div class="kk1" id="u">Google</div>
+        <div class="kk1">
+            <input id="kk" type="text" placeholder="mic">
+           <a href="#" style="color: black;"> <ion-icon name="mic-circle"></ion-icon></a>
+        </div>
+        <main class="google"> 
+            <div class="circle"></div> 
+            <div class="circle"></div> 
+            <div class="circle"></div> 
+            <div class="circle"></div> 
+        </main> 
+</div>
+   <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    
+</list>
+</body>
+</html>

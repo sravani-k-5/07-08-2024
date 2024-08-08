@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("./nat2.jpg");
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+        }
+        .main{
+            width: 100vw;
+            height: 50vh;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            gap: 8px;
+            align-items: end;
+        }
+        .bar{
+            width: 20px;
+            height: 0.1px;
+            background-color:chartreuse;
+        }
+        #bar1{
+            animation: hei 0.9s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar2{
+            animation: hei 0.59s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar3{
+            animation: hei 1.1s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar4{
+            animation: hei 1.6s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar5{
+            animation: hei 0.8s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar6{
+            animation: hei 1.8s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar7{
+            animation: hei 0.6s alternate infinite;
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+        #bar8{
+            animation: hei 1.5s alternate infinite;
+        }
+        .ln{
+            display: flex;
+            justify-content: right;
+        }
+        button{
+            background-color: rgb(49, 49, 79);
+            color: antiquewhite;
+            border-radius: 15px;
+        }
+        .lm{
+            text-decoration: none;
+        }
+        .lm:hover{
+            border-radius: 15px;
+            background: rgb(38, 84, 84);
+            box-shadow: 4px 2px 50px 7px rgb(171, 9, 117);
+        }
+        @keyframes hei {
+            0%{
+                height: 0.1px;
+            }
+            100%{
+                height: 100px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="bar" id="bar1"></div>
+        <div class="bar" id="bar2"></div>
+        <div class="bar" id="bar3"></div>
+        <div class="bar" id="bar4"></div>
+        <div class="bar" id="bar5"></div>
+        <div class="bar" id="bar6"></div>
+        <div class="bar" id="bar7"></div>
+        <div class="bar" id="bar8"></div>
+        <audio src="./sound_of_nature.mp3" controls autoplay></audio>
+    </div>
+    <!-- <div class="ln">
+        <a href="./index.html" class="lm"><button>Back</button></a>
+    </div> -->
+</body>
+</html>
